@@ -1,0 +1,25 @@
+#EXTM3U
+
+# TRT 1 HD
+#EXTINF:-1 tvg-id="TRT1.tr" group-title="Türkei",TRT 1 HD
+https://tv-trt1.medya.trt.com.tr/master_720.m3u8
+
+# ATV HD  (neuer Link)
+#EXTINF:-1 tvg-id="ATV.tr" group-title="Türkei",ATV HD
+https://yayin2.canlitv.fun/livetv/atv.stream/playlist.m3u8
+
+# Show TV SD  (neuer Link, nur 576p)
+#EXTINF:-1 tvg-id="ShowTV.tr" group-title="Türkei",Show TV SD
+https://live20.bozztv.com/trn09/gin-showtv/index.m3u8
+
+# Star TV HD
+#EXTINF:-1 tvg-id="StarTV.tr" group-title="Türkei",Star TV HD
+https://dogus-live.daioncdn.net/startv/startv_720p.m3u8
+
+# Kanal D HD
+#EXTINF:-1 tvg-id="KanalD.tr" group-title="Türkei",Kanal D HD
+https://demiroren-live.daioncdn.net/kanald/kanald.m3u8
+
+# Kanal 7 HD
+#EXTINF:-1 tvg-id="Kanal7.tr" group-title="Türkei",Kanal 7 HD
+https://kanal7-live.daioncdn.net/kanal7/kanal7_1080p.m3u8
