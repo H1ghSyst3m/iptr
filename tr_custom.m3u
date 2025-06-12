@@ -1,25 +1,28 @@
 #EXTM3U
 # Generated 2025-06-11T21:28:12.310972Z from https://iptv-org.github.io/iptv/countries/tr.m3u
-# TRT 1 HD
 #EXTINF:-1 tvg-id="TRT1.tr" group-title="Türkei",TRT 1 HD
 https://tv-trt1.medya.trt.com.tr/master_720.m3u8
 
-# ATV HD
-#EXTINF:-1 tvg-id="ATV.tr" group-title="Türkei",ATV HD
-https://strm.hdtvizlecanli.com/live/atv.m3u8
+#EXTINF:-1 tvg-id="atv (TR)" tvg-name="atv (TR)" tvg-language="Turkish" tvg-logo="https://i.ibb.co/3FVD4mV/atv.png",ATV
+https://trkvz-live.daioncdn.net/atv/atv.m3u8
 
-# Show TV HD
-#EXTINF:-1 tvg-id="ShowTV.tr" group-title="Türkei",Show TV HD
-https://showtv.blutv.com/blutv_showtv_live/live.m3u8
+#EXTINF:-1 tvg-id="ATV Avrupa" tvg-name="ATV Avrupa" tvg-language="Turkish" tvg-logo="https://i.ibb.co/k4yHhn7/atvavrupa.png",ATV Avrupa
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/76.0.3809.25 Safari/537.36
+http://antalya.tvizlehd.com/live/atvavrupa.m3u8
 
-# Star TV HD
+#EXTINF:-1 tvg-id="Show TV" tvg-name="Show TV" tvg-language="Turkish" tvg-logo="https://i.ibb.co/q0jrHyZ/show.png",Show TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/76.0.3809.25 Safari/537.36
+https://mn-nl.mncdn.com/blutv_showtv2/live.m3u8
+
+#EXTINF:-1 tvg-id="Star TV (TR)" tvg-name="Star TV (TR)" tvg-language="Turkish" tvg-logo="https://i.ibb.co/VwWRn5D/star.png",Star TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/76.0.3809.25 Safari/537.36
+https://mn-nl.mncdn.com/blutv_startv2/live.m3u8
+
 #EXTINF:-1 tvg-id="StarTV.tr" group-title="Türkei",Star TV HD
 https://dogus-live.daioncdn.net/startv/startv_720p.m3u8
 
-# Kanal D HD
 #EXTINF:-1 tvg-id="KanalD.tr" group-title="Türkei",Kanal D HD
 https://demiroren-live.daioncdn.net/kanald/kanald.m3u8
 
-# Kanal 7 HD
 #EXTINF:-1 tvg-id="Kanal7.tr" group-title="Türkei",Kanal 7 HD
 https://kanal7-live.daioncdn.net/kanal7/kanal7_1080p.m3u8
